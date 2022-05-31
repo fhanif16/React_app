@@ -9,3 +9,18 @@
     gap: 45px;
     
 }
+.cart-container{
+    background-color: antiquewhite;
+    padding: 5px;
+
+}
+.cart{
+    position: sticky;
+    top: 0;
+}
+#clear{
+    background-color: red;
+}
+#review{
+    background-color: blue;
+}

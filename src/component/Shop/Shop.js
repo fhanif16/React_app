@@ -35,8 +35,19 @@ const Shop = () => {
                   }
                 </div>
                 <div className="cart-container">
-                    <h1>this is for items</h1>
+                    <div className='cart'>
+                    <h1>Order Summary</h1>
                     <p> Selected Items : {cart.length}</p>
+                    <p>total price:</p>
+                    <p>total shipping charge</p>
+                    <p>Tax:</p>
+                    <p>Grand Total</p>
+                    <button id='clear'> Clear Cart</button>
+                    
+                    <button id='review'> Review Order</button>
+
+                    </div>
+                   
                 </div>
 
                 

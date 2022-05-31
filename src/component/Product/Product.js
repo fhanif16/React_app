@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Product.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Product =(props) => {
 //console.log(props.product);
@@ -16,7 +16,7 @@ const {img, name, seller,price } = props.product;
         <h3>Brand Name: {seller}</h3>
         <h3> Price: ${price}</h3>
         <button onClick={() => props.handler(props.product)}>BUY NOW</button>
-        <FontAwesomeIcon icon="fa-solid fa-cart-arrow-down" />
+       
        
         </div>
     );

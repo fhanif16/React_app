@@ -6,6 +6,7 @@ import Product from './component/Product/Product'
 
 
 
+
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
      <Shop>
 
      </Shop>
+    
      
     
     </div>
